@@ -9,6 +9,9 @@ const gulp = require('gulp'),
   concat =  require('gulp-concat'),
   imagemin = require('gulp-imagemin'),
   browsersync = require('browser-sync').create();
+  // babel-core
+  // babel-preset-env
+  // npm i --save-dev gulp gulp-pug gulp-sass gulp-autoprefixer gulp-sourcemaps gulp-babel gulp-concat gulp-imagemin browser-sync babel-core babel-preset-env
 
 gulp.task('html', () => {
   return gulp.src('dev/views/index.pug')
